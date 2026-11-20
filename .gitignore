@@ -1,0 +1,23 @@
+# Ren'Py and MAS generated artifacts
+*.rpyc
+*.rpa
+*.log
+*.bak
+*.tmp
+__pycache__/
+.pytest_cache/
+
+# Local saves, sensitive test fixtures, and personal backups
+persistent
+persistent.bak
+backups/
+MAS_TEST_2/
+renpy-sdk/
+.env
+.env.*
+
+# Local tooling
+.venv/
+venv/
+.DS_Store
+Thumbs.db
